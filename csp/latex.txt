@@ -1,0 +1,293 @@
+\documentclass[10pt]{report}
+\usepackage{blindtext}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{sectsty}
+\usepackage{float}
+\usepackage{array}
+\usepackage[backend=biber,bibencoding=latin1]{biblatex}
+\chapterfont{\centering}
+\usepackage{enumitem}
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{afterpage}
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{ragged2e}
+\usepackage{pdfpages}
+\usepackage{draftwatermark}
+\usepackage[headheight=0pt,headsep=0pt]{geometry}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\makeatletter
+\def\@makechapterhead#1{%
+ %%%%\vspace*{50\p@}% %%% removed!
+ {\parindent \z@ \centering\normalfont
+ \ifnum \c@secnumdepth >\m@ne
+ \huge\bfseries \@chapapp\space \thechapter
+ \par\nobreak
+ \vskip 20\p@
+ \fi
+ \interlinepenalty\@M
+ \Huge \bfseries #1\par\nobreak
+ \vskip 40\p@
+ }}
+\def\@makeschapterhead#1{%
+ %%%%%\vspace*{50\p@}% %%% removed!
+ {\parindent \z@ \centering
+ \normalfont
+ \interlinepenalty\@M
+ \Huge \bfseries #1\par\nobreak
+ \vskip 40\p@
+ }}
+\makeatother
+\lstset{ %
+language=Java, % the language of the code
+basicstyle=\footnotesize, % the size of the fonts that are used for the code
+numbers=left, % where to put the line-numbers
+numberstyle=\tiny\color{gray}, % the style that is used for the line-numbers
+stepnumber=1, % each line is numbered
+numbersep=5pt, % how far the line-numbers are from the code
+backgroundcolor=\color{white}, % choose the background color. You must add \usepackage{color}
+showspaces=false, % show spaces adding particular underscores
+showstringspaces=false, % underline spaces within strings
+showtabs=false, % show tabs within strings adding particular underscores
+frame=single, % adds a frame around the code
+rulecolor=\color{black}, % if not set, the frame-color may be changed on line-breaks within notblack 
+text (e.g. commens (green here))
+tabsize=2, % sets default tabsize to 2 spaces
+captionpos=b, % sets the caption-position to bottom
+breaklines=true, % sets automatic line breaking
+breakatwhitespace=false, % sets if automatic breaks should only happen at whitespace
+title=\lstname, % show the filename of files included with \lstinputlisting;
+% also try caption instead of title
+keywordstyle=\color{blue}, % keyword style
+commentstyle=\color{dkgreen}, % comment style
+stringstyle=\color{mauve}, % string literal style
+escapeinside={\%*}{*)}, % if you want to add a comment within your code
+morekeywords={*,...} % if you want to add more keywords to the set
+}
+\geometry{a4paper,total={180mm,250mm},left=20mm,top=20mm, right=20mm}
+\thispagestyle{empty}
+\begin{document}
+\newpage
+\begin{center}
+\thispagestyle{empty}
+\LARGE{\textsc {\textbf{\textcolor{black}{PROJECT TITLE}}}}\\[0.2cm]
+\vspace{0.2cm}
+\Large{\textit{\textcolor{black}{\\Community Service Project report submitted \\in partial fulfillment 
+of the
+requirement
+for award of the degree of}}}\\[0.3cm]
+\Large{\textbf{\textcolor{black}{\\Bachelor of Technology\\in \\Artificial Intelligence and Machine 
+Learning}}}
+\vspace{0.5cm}
+\Large{\textbf{\textcolor{black}{\\By}}}\\[0.5cm]
+\begin{table}[h]
+\centering
+\Large{\textcolorwhite}{
+\begin{tabular}{>{\bfseries}lc>{\bfseries}r}
+SUNDAR RAJ B&(21UEAM0058) & (VTU20676)\\SATHYA U & (21UEAM0056)&(VTU20618)\\JONES ANDREW E &(21UEAM0021) & (VTU20674)\\
+\end{tabular}}}
+\end{table}
+\vspace{0.5cm}
+\large{\textit{\textcolor{black}{Under the guidance of}}}\\
+\large{\textit{\textcolor{black}{Ms.Gangalakshmi.T,Mtech.,\\
+Assistant Professor}
+}}\\
+\vspace{0.5cm}
+\includegraphics[scale=0.5]{Vel tech-Logo.png}\\
+\vspace{1cm}
+\large{\textbf{\textcolor{black}{DEPARTMENT OF ARTIFICIAL INTELLIGENCE 
+AND MACHINE LEARNING}}}\\
+\large{\textbf{\textcolor{black}{SCHOOL OF COMPUTING}}}\\
+\vspace{0.5cm}
+\Large{\textbf{\textcolor{black}{VEL TECH RANGARAJAN DR. SAGUNTHALA R\&D INSTITUTE OF
+SCIENCE \& TECHNOLOGY\\
+\vspace{0.2cm}
+(Deemed to be University Estd u/s 3 of UGC Act,
+1956)}}}\\\Large{\textbf{\textcolor{black}{Accredited by NAAC with A++ Grade}}}\\
+\large{\textbf{\textcolor{black}{CHENNAI 600 062, TAMILNADU, INDIA}}}
+\vspace{0.4cm}
+\large{\textbf{\textcolor{black}{\\November, 2023}}}\\
+\pagecolor{Lavender}\afterpage{\nopagecolor}
+\end{center}
+\newpage
+\begin{center}
+\thispagestyle{empty}
+\LARGE{\textsc {\textbf{\textcolor{blue}{PROJECT TITLE}}}}\\[0.2cm]
+\vspace{0.2cm}
+\Large{\textit{\textcolor{blue}{\\Community Service Project report submitted \\in partial fulfillment 
+of the
+requirement
+for award of the degree of}}}\\[0.3cm]
+\Large{\textbf{\textcolor{blue}{\\Bachelor of Technology\\in \\Artificial Intelligence and Machine 
+Learning}}}
+\vspace{0.5cm}
+\Large{\textbf{\textcolor{blue}{\\By}}}\\[0.5cm]
+\begin{table}[h]
+\centering
+\Large{\textcolor{blue}{
+\begin{tabular}{>{\bfseries}lc>{\bfseries}r}
+SUNDAR RAJ B&(21UEAM0058) & (VTU20676)\\SATHYA U & (21UEAM0056)&(VTU20618)\\JONES ANDREW E&(21UEAM0021) & (VTU20674)\\
+\end{tabular}}}
+\end{table}
+\vspace{0.5cm}
+\large{\textit{\textcolor{blue}{Under the guidance of}}}\\
+\large{\textit{\textcolor{blue}{MS.GANGALAKSHMI.T,Mtech.,\\
+Assistant Professor}
+}}\\
+\vspace{0.5cm}
+\includegraphics[scale=0.5]{Vel tech-Logo.png}\\
+\vspace{1cm}
+\large{\textbf{\textcolor{blue}{DEPARTMENT OF ARTIFICIAL INTELLIGENCE 
+AND MACHINE LEARNING}}}\\
+\large{\textbf{\textcolor{blue}{SCHOOL OF COMPUTING}}}\\
+\vspace{0.5cm}
+\Large{\textbf{\textcolor{blue}{VEL TECH RANGARAJAN DR. SAGUNTHALA R\&D INSTITUTE OF
+SCIENCE \& TECHNOLOGY\\
+\vspace{0.2cm}
+(Deemed to be University Estd u/s 3 of UGC Act,
+1956)}}}\\\Large{\textbf{\textcolor{blue}{Accredited by NAAC with A++ Grade}}}\\
+\large{\textbf{\textcolor{blue}{CHENNAI 600 062, TAMILNADU, INDIA}}}
+\vspace{0.4cm}
+\large{\textbf{\textcolor{blue}{\\November, 2023}}}\\
+\end{center}
+%CERTIFICATE
+\newpage
+\pagenumbering{roman}
+\begin{center}
+{\Huge \textbf{CERTIFICATE}}\\[1cm]
+\end{center}
+\linespread{1.5}
+\large{It is certified that the work contained in the project report titled "PROJECT-TITLE (IN CAPITAL
+LETTER)" by "STUDENT NAME1 & (REGISTER NO), STUDENT NAME2 & (REGISTER NO), STUDENT 
+NAME3 & (REGISTER NO)" has been carried out under my supervision and that this work has not 
+been submitted elsewhere for a degree.}
+\vspace{1.5cm}
+\begin{flushright}
+\textbf{Signature of Supervisor\\Supervisor name\\Designation\\Computer Science \& 
+Engineering\\School of Computing\\Vel Tech Rangarajan Dr.Sagunthala R\&D\\Institute of Science 
+\&
+Technology\\Nov, 2023}\\[2.0cm]
+\end{flushright}
+\begin{flushleft}
+\textbf{Signature of Head of the Department\hfill\textbf{Signature of the Dean }\\\\Artificial 
+Intelligence and Machine Learning\hfill\textbf{Dr. V. Srinivasa Rao}\\School of 
+Computing\hfill\textbf{Professor \& Dean}\\Vel Tech Rangarajan Dr. Sagunthala 
+R\&D\hfill\textbf{Computer
+Science \& Engineering}\\Institute of
+Science \& Technology\hfill\textbf{School of Computing}\\Nov, 2023\hfill\textbf{Vel Tech 
+Rangarajan Dr. Sagunthala R\&D}\\\hfill\textbf{Institute of
+Science \& Technology}\\}\hfill\textbf{Nov, 2023}\\
+\end{flushleft}
+%declaration
+\newpage
+\begin{center}
+\Huge \textbf{DECLARATION}
+\end{center}
+\vspace{1.0cm}
+\linespread{1.5}
+\large{
+We hereby declare that we have completed the mandatory community service project in the 
+stipulated
+time period in (Name of the Community) under the guidance of our Project supervisor}
+\vspace{2.0cm}
+\begin{flushright}
+(Signature)\\
+\large{(STUDENT NAME1(IN CAPITAL LETTER)}\\
+\large{Date:\hspace*{1.0cm}/\hspace*{1.0cm}/}\\[2.0cm]
+(Signature)\\
+\large{(STUDENT NAME2(IN CAPITAL LETTER)}\\
+\large{Date:\hspace*{1.0cm}/\hspace*{1.0cm}/}\\[2.0cm]
+(Signature)\\
+\large{(STUDENT NAME3(IN CAPITAL LETTER)}\\
+\large{Date:\hspace*{1.0cm}/\hspace*{1.0cm}/}\\[2.0cm]
+\end{flushright}
+\newpage
+%approval sheet
+\newpage
+\begin{center}
+\Huge\textbf{APPROVAL SHEET}\\
+\vspace{1.0cm}
+\end{center}
+\linespread{1.5}
+\justifying{
+\large{This project report entitled (PROJECT TITLE (IN CAPITAL LETTERS)) by (STUDENT NAME1
+(REGISTER NO), (STUDENT NAME2 (REGISTER NO), (STUDENT NAME3 (REGISTER NO) is approved for 
+the
+degree of B.Tech in Artificial Intelligence and Machine Learning.}\\}
+\vspace{4.0cm}
+\begin{flushleft}
+\Large \textbf{Examiners} \hfill \Large \textbf{Supervisor}\\
+\end{flushleft}
+\begin{flushright}
+Supervisor name, Degree.,
+\end{flushright}
+\vspace{1.0cm}
+\begin{flushleft}
+\large{\textbf{Date:\hspace*{1.0cm}/\hspace*{2.0cm}/}}\\
+\large{\textbf{Place:}}
+\end{flushleft}
+%acknowledgment
+\newpage
+\begin{center}
+\LARGE{\textbf{ACKNOWLEDGEMENT}}\\[1cm]
+\end{center}
+\linespread{1.13}
+\large{\paragraph{}We express our deepest gratitude to our respected \textbf{Founder Chancellor 
+and
+President Col. Prof. Dr. R. RANGARAJAN B.E. (EEE), B.E. (MECH), M.S (AUTO),D.Sc., Foundress 
+President
+Dr. R. SAGUNTHALA RANGARAJAN M.B.B.S.} Chairperson Managing Trustee and Vice President.}
+\large{\paragraph{}We are very much grateful to our beloved \textbf{Vice Chancellor Prof. S.
+SALIVAHANAN,} for providing us with an environment to complete our project successfully.}
+\large{\paragraph{}We record indebtedness to our \textbf{Professor \& Dean, Department of 
+Computer
+Science \& Engineering, School of Computing, Dr. V. SRINIVASA RAO, M.Tech., Ph.D.,} for immense 
+care and encouragement
+towards us throughout the course of this project.}
+\large{\paragraph{}We are thankful to our \textbf{Head, Artificial Intelligence and Machine Learning, 
+Dr. N. R. Rajalakshmi
+, M.E., Ph.D.,} for providing immense support in all our endeavors.}
+\large{\paragraph{}We also take this opportunity to express a deep sense of gratitude to our Internal
+Supervisor \textbf{Supervisor name,degree.,(in capital letters)} for his/her cordial support, valuable
+information and guidance, he/she helped us in completing this project through various stages. }
+\large{\paragraph{}A special thanks to our \textbf{Project Coordinators Mr. V. ASHOK KUMAR, 
+M.Tech., Ms. C. SHYAMALA KUMARI, M.E., Mr.V.JAGAN RAJA, M.E.,} for their valuable guidance and 
+support throughout the course of the project.}
+\large{\paragraph{}We thank our department faculty, supporting staff and friends for their help and
+guidance to complete this project.}
+\vspace{2.0cm}
+\begin{flushright}
+\begin{tabular}{>{\bfseries}lc>{\bfseries}r}
+STUDENT NAME1 & & (REGISTER NO)\\STUDENT NAME2 & & (REGISTER NO)\\STUDENT NAME3 & &
+(REGISTER NO)\\
+\end{tabular}
+\end{flushright}
+\begin{center}
+\addtocontents{toc}{~\hfill\textbf{Page.No}\par}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\end{center}
+\vspace{-5em}
+\Large{\paragraph\\
+}\\
+\vspace{0.5cm}
+\noindent \textbf{Keywords:}
+%list of figure
+\newpage
+\renewcommand*\listfigurename{LIST OF FIGURES}
+\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+\listoffigures
+\newpage
+\renewcommand{\listtablename}{LIST OF TABLES}
+\addcontentsline{toc}{chapter}{LIST OF TABLES}
+\listoftables
+%list of abbreviation
+\newpage
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
