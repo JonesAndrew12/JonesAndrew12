@@ -77,7 +77,7 @@ morekeywords={*,...} % if you want to add more keywords to the set
 \newpage
 \begin{center}
 \thispagestyle{empty}
-\LARGE{\textsc {\textbf{\textcolor{black}{PROJECT TITLE}}}}\\[0.2cm]
+\LARGE{\textsc {\textbf{\textcolor{black}{LOCATING BUS ROUTES FOR BETTER COMMUNITY TRANSPORTATION}}}}\\[0.2cm]
 \vspace{0.2cm}
 \Large{\textit{\textcolor{black}{\\Community Service Project report submitted \\in partial fulfillment 
 of the
@@ -96,7 +96,7 @@ SUNDAR RAJ B&(21UEAM0058) & (VTU20676)\\SATHYA U & (21UEAM0056)&(VTU20618)\\JONE
 \end{table}
 \vspace{0.5cm}
 \large{\textit{\textcolor{black}{Under the guidance of}}}\\
-\large{\textit{\textcolor{black}{Ms.Gangalakshmi.T,Mtech.,\\
+\large{\textit{\textcolor{black}{MS GANGALAKSHMI T,Me.,\\
 Assistant Professor}
 }}\\
 \vspace{0.5cm}
@@ -119,7 +119,7 @@ SCIENCE \& TECHNOLOGY\\
 \newpage
 \begin{center}
 \thispagestyle{empty}
-\LARGE{\textsc {\textbf{\textcolor{blue}{PROJECT TITLE}}}}\\[0.2cm]
+\LARGE{\textsc {\textbf{\textcolor{blue}{LOCATING BUS ROUTES FOR BETTER COMMUNITY TRANSPORTATION}}}}\\[0.2cm]
 \vspace{0.2cm}
 \Large{\textit{\textcolor{blue}{\\Community Service Project report submitted \\in partial fulfillment 
 of the
@@ -138,7 +138,7 @@ SUNDAR RAJ B&(21UEAM0058) & (VTU20676)\\SATHYA U & (21UEAM0056)&(VTU20618)\\JONE
 \end{table}
 \vspace{0.5cm}
 \large{\textit{\textcolor{blue}{Under the guidance of}}}\\
-\large{\textit{\textcolor{blue}{MS.GANGALAKSHMI.T,Mtech.,\\
+\large{\textit{\textcolor{blue}{MS GANGALAKSHMI T,Me.,\\
 Assistant Professor}
 }}\\
 \vspace{0.5cm}
@@ -164,13 +164,10 @@ SCIENCE \& TECHNOLOGY\\
 {\Huge \textbf{CERTIFICATE}}\\[1cm]
 \end{center}
 \linespread{1.5}
-\large{It is certified that the work contained in the project report titled "PROJECT-TITLE (IN CAPITAL
-LETTER)" by "STUDENT NAME1 & (REGISTER NO), STUDENT NAME2 & (REGISTER NO), STUDENT 
-NAME3 & (REGISTER NO)" has been carried out under my supervision and that this work has not 
-been submitted elsewhere for a degree.}
+\large{It is certified that the work contained in the project report titled "LOCATING BUS ROUTES FOR BETTER COMMUNITY TRANSPORTATION" by "SUNDAR RAJ B & (21UEAM0058), SATHYA U & (21UEAM0056), JONES ANDREW E & (21UEAM0021)" has been carried out under my supervision and that this work has not been submitted elsewhere for a degree.}
 \vspace{1.5cm}
 \begin{flushright}
-\textbf{Signature of Supervisor\\Supervisor name\\Designation\\Computer Science \& 
+\textbf{Signature of Supervisor\\Ms Gangalakshmi T\\Assistant Professor\\Computer Science \& 
 Engineering\\School of Computing\\Vel Tech Rangarajan Dr.Sagunthala R\&D\\Institute of Science 
 \&
 Technology\\Nov, 2023}\\[2.0cm]
@@ -195,17 +192,17 @@ Science \& Technology}\\}\hfill\textbf{Nov, 2023}\\
 \large{
 We hereby declare that we have completed the mandatory community service project in the 
 stipulated
-time period in (Name of the Community) under the guidance of our Project supervisor}
+time period in Nemilichery under the guidance of our Project supervisor}
 \vspace{2.0cm}
 \begin{flushright}
 (Signature)\\
-\large{(STUDENT NAME1(IN CAPITAL LETTER)}\\
+\large{SUNDAR RAJ B}\\
 \large{Date:\hspace*{1.0cm}/\hspace*{1.0cm}/}\\[2.0cm]
 (Signature)\\
-\large{(STUDENT NAME2(IN CAPITAL LETTER)}\\
+\large{SATHYA U}\\
 \large{Date:\hspace*{1.0cm}/\hspace*{1.0cm}/}\\[2.0cm]
 (Signature)\\
-\large{(STUDENT NAME3(IN CAPITAL LETTER)}\\
+\large{JONES ANDREW E}\\
 \large{Date:\hspace*{1.0cm}/\hspace*{1.0cm}/}\\[2.0cm]
 \end{flushright}
 \newpage
@@ -217,16 +214,15 @@ time period in (Name of the Community) under the guidance of our Project supervi
 \end{center}
 \linespread{1.5}
 \justifying{
-\large{This project report entitled (PROJECT TITLE (IN CAPITAL LETTERS)) by (STUDENT NAME1
-(REGISTER NO), (STUDENT NAME2 (REGISTER NO), (STUDENT NAME3 (REGISTER NO) is approved for 
-the
-degree of B.Tech in Artificial Intelligence and Machine Learning.}\\}
+\large{This project report entitled (LOCATING BUS ROUTES FOR BETTER COMMUNITY TRANSPORTATION) by (SUNDAR RAJ B)
+(21UEAM0058)), (SATHYA U (21UEAM0056)), (JONES ANDREW E (21UEAM0021)) is approved for 
+the degree of B.Tech in Artificial Intelligence and Machine Learning.}\\}
 \vspace{4.0cm}
 \begin{flushleft}
 \Large \textbf{Examiners} \hfill \Large \textbf{Supervisor}\\
 \end{flushleft}
 \begin{flushright}
-Supervisor name, Degree.,
+Ms Gangalakshmi T, Me.,
 \end{flushright}
 \vspace{1.0cm}
 \begin{flushleft}
@@ -265,8 +261,8 @@ guidance to complete this project.}
 \vspace{2.0cm}
 \begin{flushright}
 \begin{tabular}{>{\bfseries}lc>{\bfseries}r}
-STUDENT NAME1 & & (REGISTER NO)\\STUDENT NAME2 & & (REGISTER NO)\\STUDENT NAME3 & &
-(REGISTER NO)\\
+SUNDAR RAJ B & & (21UEAM0058)\\SATHYA U & & (21UEAM0056)\\JONES ANDREW B & &
+(21UEAM0021)\\
 \end{tabular}
 \end{flushright}
 \begin{center}
@@ -291,3 +287,138 @@ STUDENT NAME1 & & (REGISTER NO)\\STUDENT NAME2 & & (REGISTER NO)\\STUDENT NAME3 
 \newpage
 \newlist{abbrv}{itemize}{1}
 \setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
+\chapter*{LIST OF ACRONYMS AND ABBREVIATIONS}
+\chaptermark{LIST OF ACRONYMS AND ABBREVIATIONS}
+\addcontentsline{toc}{chapter}{LIST OF ACRONYMS AND ABBREVIATIONS}
+\begin{abbrv}
+\item[abbr] Abbreviation
+\end{abbrv}
+\newpage
+\renewcommand*\contentsname{TABLE OF CONTENTS}
+%\addtocontents{toc}{\textbf{CONTENT} \hfill \textbf{PAGE NO.}}
+\tableofcontents
+\addtocontents{toc}{\protect\pagestyle{empty}}
+\thispagestyle{empty}
+%introduction
+\chapter{EXECUTIVE SUMMARY}
+\pagenumbering{arabic}
+\hspace{0.5cm} A concise executive summary, limited to one page, is required for the community 
+service report. This summary should comprise a brief overview of the Community, a recap of the 
+student's CSP activities, and a minimum of five learning objectives and corresponding outcomes.
+\linespread{1.5}
+\begin{description}
+ \item [Goals and Objectives: ]: Clearly state the project's overarching goals and specific objectives. 
+These objectives should be measurable, achievable, and aligned with the project's mission.
+ \item [Intended Impact]: Describe the intended positive changes or improvements the project aims 
+to bring about within the community or society. This could involve changes in attitudes, behaviors, 
+conditions, or policies that lead to a better quality of life for individuals or groups.
+ 
+ \item [Beneficiaries]:Identify and describe the individuals, groups, or communities that will 
+directly benefit from the project outcomes. Explain how the project will contribute to their wellbeing, empowerment, or overall quality of life.
+ \item [Social Issue]:Clearly define the social issue or challenge that the project seeks to address. 
+Explain the significance of the issue and its relevance to the community or society.
+ \item
+ 
+\end{description}
+\chapter{OVERVIEW OF THE COMMUNITY}
+\section{Certificate from the office of Community}
+%literature review
+\chapter{ACTIVITY LOG & OUTCOME}
+\section{Project Activity Log}
+\section{Project Activity Outcome}
+\hspace{0.5cm} An activity log in a project serves as a chronological record that documents the 
+various activities, tasks, and events that take place during the course of the project. It offers a 
+detailed account of how the project progresses, who is involved, what tasks are completed, and 
+when they are accomplished. This log provides a comprehensive overview of project activities and 
+serves several important purposes:
+\linespread{1.5}
+\hspace{0.5cm} 
+The content of an activity log typically includes details such as the date and time of the activity, a 
+description of the task performed, the individuals involved, the resources utilized, any comments or 
+notes about the activity, and the status of completion. 
+\linespread{1.5}
+\begin{description}
+ \item [Tracking Progress]: The activity log allows team members, to monitor the project's 
+progress. By documenting completed tasks and milestones, it becomes easier to assess whether the 
+project is on track or if adjustments are needed.
+ \item [Communication]: The log provides a transparent view of project activities by communicating 
+to the respective authorities. This helps in effective communication among team members, ensuring 
+everyone is aware of the current status and recent developments.
+ 
+ \item [Documentation]: This log acts as a historical record of the project's journey. It provides 
+valuable insights into decision-making processes, challenges faced, and lessons learned that can be 
+beneficial for future projects or reviews.
+ \item
+ 
+\end{description}
+{\raggedright
+\includepdf[pages={1,2}]{activity.pdf}
+}
+\linespread{1.5}
+%PROJECT DESCRIPTION
+\chapter{BACKGROUND & SURVEY ANALYSIS FOR PROBLEM STATEMENT}
+\hspace{0.5cm} Information regarding the Socio-Economic Survey conducted in the 
+Village/Habitation. Please include the questionnaire developed for the survey.
+It refers to a comprehensive explanation of the anticipated results, impacts, and changes that the 
+project aims to achieve within the broader community or society. It outlines the positive effects and 
+contributions the project intends to make to address a specific social issue, improve the well-being 
+of individuals or groups, and create lasting benefits for the community at large.
+\linespread{1.5}
+\section{Background Study}
+\section{Survey Analysis with report}
+\section{Geotagged Photos and Details}
+\section{Society Relevant Problem Identification}
+\section{Development of Problem solution}
+\newpage
+\hspace{0.5cm} 
+Outline the issues you have recognized within the community.
+\newpage
+\hspace{0.5cm} 
+Propose a short-term and long-term action strategy for addressing the identified issues. These 
+solutions can be put forward to the relevant authorities for consideration and implementation.
+\chapter{RECOMMENDATIONS AND
+CONCLUSION}
+\section{Recommendations }
+\section{ Conclusion}
+\hspace{0.5cm} 
+We would like to conclude that by emphasizing the opportunity that this Community service project 
+has given us in solving real world problems.
+This project underscores that even modest efforts, driven by passion, can catalyze enduring 
+community transformation.
+In conclusion, our community service project has yielded valuable insights and outcomes that 
+highlight the power of collective action in creating positive change. 
+Through our efforts, we have witnessed the transformative effects of offering support, education, 
+and resources to underserved members of our community.
+\appendix
+\chapter{REFERENCES}
+\bibitem{latexcompanion} \text{Pamella Soares; Raphael Saraiva; Iago Fernandes; Antônio Neto; 
+Jerffeson Souza(2022).A Blockchain-based Customizable Document Registration Service for Third 
+Parties, IEEE International Conference ,20(15),7456-7462}\\\\ \textbf{FORMAT:Author(s)name.Title, 
+Journal name, Volume,
+Issue, Pageno.Year}\\
+\\ \textbf{Note} References should be taken from recent years and dont include Conference papers 
+\\ \textbf{Note} Web References can also be inlcuded related to the problem statement
+\newpage
+\begin{center} \textbf{General Instructions} \end{center} 
+\begin{itemize}
+\item \textbf {Wherever Figures applicable in Report , that page should be printed in color}
+\item Dont include general content , write more technical content
+\item Each chapter should minimum contain 3 pages
+\item Draw the notation of diagrams properly 
+\item Every paragraph should be started with one tab space 
+\item Literature review should be properly cited and described with content related to project
+\item All the diagrams should be properly described and dont include general information of any 
+diagram
+\item All diagrams,figures should be numbered according to the chapter number
+\item All the references should be cited in the report 
+\item \textbf{Strictly dont change font style or font size of the template, and dont customize the 
+latex code of report}
+\item \textbf{Report should be prepared according to the template only}
+\item \textbf{Any deviations from the report template,will be summarily rejected}
+\item \textbf{ Number of Project Soft Binded copy for each and every batch is (n+2) copies as given
+in the table below}
+\item \textbf {Attach the CD in last Cover page of the Project Report with CD cover and details of 
+batch like Title,Members name and VTU No ,Batch No,should be written in Marker pen}
+\end{itemize}
+\newpage
+\end{document}
