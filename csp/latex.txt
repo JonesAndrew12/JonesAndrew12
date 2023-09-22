@@ -18,7 +18,6 @@
 \usepackage{multirow}
 \usepackage{ragged2e}
 \usepackage{pdfpages}
-\usepackage{draftwatermark}
 \usepackage[headheight=0pt,headsep=0pt]{geometry}
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -302,21 +301,23 @@ SUNDAR RAJ B & & (21UEAM0058)\\SATHYA U & & (21UEAM0056)\\JONES ANDREW B & &
 %introduction
 \chapter{EXECUTIVE SUMMARY}
 \pagenumbering{arabic}
-\hspace{0.5cm} A concise executive summary, limited to one page, is required for the community 
-service report. This summary should comprise a brief overview of the Community, a recap of the 
-student's CSP activities, and a minimum of five learning objectives and corresponding outcomes.
+\hspace{0.5cm} Buses are one of the most widely used public transport.It is mainly used by working people and students.The hot time for buses are morning and evening.We have heard many stories about late and missed busses.People have gone late to offices,missed classes,in many cases the total plan collapses due to one small thing.Bus timings are still a mystery in many villages and towns.One such area is Nemilichery.Nemilichery is a locality  located in Thiruvallur district and is one of the well devoloped town in Chennai.It has its own town panchayat and the people living here mostly work in IT.It has a railway station but still Bus transport is used more in this area.Many buses go to many places nearby like Avadi,Pattabiram,Thiruninravur and poonamalle.Since so many people are going in and out of town for work everyday,the office timings will be very crowded.Thus the project will greatly help the town.The proposed system involves equipping each bus with a GPS device and camera that continuously transmits its real-time data to a centralized server.The server processes this information and makes it accessible through various platforms, such as mobile applications and web interfaces.Passengers can easily access the tracking information like bus locations, estimated arrival times, and route updates,crowd tracking through their smartphones or other devices with internet.The proposed system can help solve most of the problems related to buses and their schedules.
+
 \linespread{1.5}
 \begin{description}
- \item [Goals and Objectives: ]: Clearly state the project's overarching goals and specific objectives. 
-These objectives should be measurable, achievable, and aligned with the project's mission.
- \item [Intended Impact]: Describe the intended positive changes or improvements the project aims 
-to bring about within the community or society. This could involve changes in attitudes, behaviors, 
-conditions, or policies that lead to a better quality of life for individuals or groups.
+ \item [Goals and Objectives: ]:\\
+ \textbf{Passenger Convenience:}The routes and the live tracking of the busses is available for the public to see which greatly increases and helps passengers making their life easier.\\
+ \textbf{Safety and Security:}As the bus is live tracked the passengers can rest assured as their location can be seen from anywhere in the world.During emergency situations like puncture,breakdown in dead zones the driver and other workers in the bus have all the options to report as an emergency and will be notified to the transport department for further decisions.\\
+ \textbf{Data insights and analysis:}By tracking the everyday crowd and analyzing the data,we can manage the crowd better,add or stop the operation of extra busses.We can also customize by providing more busses on more crowded dates and less busses for less crowded dates.We can also
+ analyze about the fuel being used,better routes for busses to save fuel and satisfy customers at the same time.
  
- \item [Beneficiaries]:Identify and describe the individuals, groups, or communities that will 
-directly benefit from the project outcomes. Explain how the project will contribute to their wellbeing, empowerment, or overall quality of life.
- \item [Social Issue]:Clearly define the social issue or challenge that the project seeks to address. 
-Explain the significance of the issue and its relevance to the community or society.
+ \item [Intended Impact]:\\
+ We aim to improve the overall travelling experience of the passengers by implementing real time location and crowd tracking of the bus.Everyone irrespective of where they are ,can access the website to see where the busses are.It can greatly reduce the waiting time of passengers,reduce the crowd per unit by adjusting the number of busses,live tracking the crowd so that passengers can plan beforehand on how to tackle the situation.It also ensures the safety of the passengers as the location is always available in the web.Emergency situations can also be handled quickly by using the proposed emergency method.The emergency feature also works in deadzones.Overall it aims to improve the passenger's travel experience.
+ 
+ \item [Beneficiaries]:\\
+ The bus travelling passengers are the main first rate beneficiaries because they can locate busses,plan according to the crowd and help themselves in emergency situations.The organisation which is greatly benefited from this is the Transport department of all the states.After the routes and timings are well organised many people will prefer travelling by busses thus increasing the profits.The analysis can help in reducing the fuel costs and hence in a nutshell profit increases.The environment is indirectly benefited as the fuel is reduced so is the pollution.Many customers may shift to busses hence saving the environment from pollution.
+ \item [Social Issue]:\\
+ The project clearly seeks to solve the bus timings and crowd problem which is being faced by the society everyday.The location of the bus is being shared constantly hence solving the timing problem.The crowd is also tracked simultaneously so the people can see the seat logs thus solving the crowd problem also.After gathering enough data we can now analyse them for making the experience even better and more comfortable than the previous version.Thus the underlying social problem can be solved by this project.
  \item
  
 \end{description}
