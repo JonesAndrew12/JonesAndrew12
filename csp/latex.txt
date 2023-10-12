@@ -288,17 +288,15 @@ SUNDAR RAJ B & & (21UEAM0058)\\SATHYA U & & (21UEAM0056)\\JONES ANDREW B & &
 \chapter*{LIST OF ACRONYMS AND ABBREVIATIONS}
 \chaptermark{LIST OF ACRONYMS AND ABBREVIATIONS}
 \addcontentsline{toc}{chapter}{LIST OF ACRONYMS AND ABBREVIATIONS}
-\begin{abbrv}
-\begin{justify} 
-\item\textbf{S.NO} \space\space\space\space\space\space\space\space\space\space\space\space\textbf{ABBREVIATIONS}\space\space\space\space\space\space\space\space\space\space\space\space\textbf{DEFINITION}
 
-\item\space\space\space{1.}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{BRT}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{Bus Rapid Transit}
-\item\space\space\space{2.}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{GIS}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{Geographical Information System}
-\item\space\space\space{3.}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{GPS}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{Global Positioning System}
-\item\space\space\space{4.}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{IT} \space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{Information Technology}
-\item\space\space\space{5.}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{ML}\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space{Machine Learning}
-\end{justify}
-\end{abbrv}
+\begin{enumerate}
+  \item \textbf{BRT} \space\space\space\space\space\space Bus Rapid Transit
+  \item \textbf{BTS} \space\space\space\space\space\space Bus Tracking System
+  \item \textbf{GIS} \space\space\space\space\space\space\space Geographical Information System
+  \item \textbf{GPS} \space\space\space\space\space\ Global Positioning System
+  \item \textbf{IT} \space\space\space\space\space\space\space\space \space\space Information Technology
+  \item \textbf{ML} \space\space\space\space\space\space\space\space Machine Learning
+\end{enumerate}
 \newpage
 \renewcommand*\contentsname{TABLE OF CONTENTS}
 %\addtocontents{toc}{\textbf{CONTENT} \hfill \textbf{PAGE NO.}}
@@ -310,19 +308,22 @@ SUNDAR RAJ B & & (21UEAM0058)\\SATHYA U & & (21UEAM0056)\\JONES ANDREW B & &
 \pagenumbering{arabic}
 \hspace{0.5cm} Buses are one of the most widely used public transport.It is mainly used by working people and students.The hot time for buses are morning and evening.We have heard many stories about late and missed busses.People have gone late to offices,missed classes,in many cases the total plan collapses due to one small thing.Bus timings are still a mystery in many villages and towns.One such area is Nemilichery which is a locality  located in Thiruvallur district.It has its own town panchayat and the people living here mostly work in IT.It has a railway station but still Bus transport is used more in this area.\\
 
-\hspace{0.5cm} Many buses go to many places nearby like Avadi,Pattabiram,Thiruninravur and poonamalle.Since so many people are going in and out of town for work everyday,the office timings will be very crowded.Thus the project will greatly help the town.The proposed system involves equipping each bus with a GPS device and camera that continuously transmits its real-time data to a centralized server.The server processes this information and makes it accessible through various platforms, such as mobile applications and web interfaces.Passengers can easily access the tracking information like bus locations, estimated arrival times, and route updates,crowd tracking through their smartphones or other devices with internet.The proposed system can help solve most of the problems related to buses and their schedules.
+\hspace{0.1cm} Many buses go to many places nearby like Avadi,Pattabiram,Thiruninravur and poonamalle.Since so many people are going in and out of town for work everyday,the office timings will be very crowded.Thus the project will greatly help the town.The proposed system involves equipping each bus with a GPS device and camera that continuously transmits its real-time data to a centralized server.The server processes this information and makes it accessible through various platforms, such as mobile applications and web interfaces.Passengers can easily access the tracking information like bus locations, estimated arrival times, and route updates,crowd tracking through their smartphones or other devices with internet.The proposed system can help solve most of the problems related to buses and their schedules.
 
 \hspace{-0.5cm}\newline\textbf{Goals and Objectives:}\\
 Passenger Convenience : The routes and the live tracking of the busses is available for the public to see which greatly increases and helps passengers making their life easier.\newline 
 Safety and Security : As the bus is live tracked the passengers can rest assured as their location can be seen from anywhere in the world.During emergency situations like puncture,breakdown in dead zones the driver and other workers in the bus have all the options to report as an emergency and will be notified to the transport department for further decisions.\newline \\ \\
 Data insights and analysis : By tracking the everyday crowd and analyzing the data,the project can manage the crowd better,add or stop the operation of extra busses.It can also customize by providing more busses on more crowded dates and less busses for less crowded dates.It can also
- analyze about the fuel being used,better routes for busses to save fuel and satisfy customers at the same time.\\ 
- \textbf{Intended Impact:}\\
- The project improves the overall travelling experience of the passengers by implementing real time location and crowd tracking of the bus.Everyone irrespective of where they are ,can access the website to see where the busses are.It can greatly reduce the waiting time of passengers,reduce the crowd per unit by adjusting the number of busses,live tracking the crowd so that passengers can plan beforehand on how to tackle the situation.It also ensures the safety of the passengers as the location is always available in the web.Emergency situations can also be handled quickly.The emergency feature also works in deadzones.The driver or the passengers have to report the issue in the app to activate the emergency mode.Overall it aims to improve the passenger's travel experience.\\
- \textbf{Beneficiaries:}\\
- The bus travelling passengers are the main first rate beneficiaries because they can locate busses,plan according to the crowd and help themselves in emergency situations.The organisation which is greatly benefited from this is the Transport department of all the states.After the routes and timings are well organised many people will prefer travelling by busses thus increasing the profits.The analysis can help in reducing the fuel costs.In a nutshell the overall profit increases.The environment is indirectly benefited as the fuel is reduced,so is the pollution.\\
-\textbf{Social Issue:}\\
- The project clearly seeks to solve the bus timings and crowd problem which is being faced by the society everyday.The location of the bus is being shared hence solving the timing problem.The crowd is also tracked simultaneously so the people can see the seat logs thus solving the crowd problem also.After gathering data it can be analysed for making the experience even better and more comfortable than the previous version.Thus the underlying social problem can be solved by this project.
+ analyze about the fuel being used,better routes for busses to save fuel and satisfy customers at the same time.\\
+ \textbf{Intended Impact:}
+ 
+ \hspace{0.5cm}The project improves the overall travelling experience of the passengers by implementing real time location and crowd tracking of the bus.Everyone irrespective of where they are ,can access the website to see where the busses are.It can greatly reduce the waiting time of passengers,reduce the crowd per unit by adjusting the number of busses,live tracking the crowd so that passengers can plan beforehand on how to tackle the situation.It also ensures the safety of the passengers as the location is always available in the web.Emergency situations can also be handled quickly.The emergency feature also works in deadzones.The driver or the passengers have to report the issue in the app to activate the emergency mode.Overall it aims to improve the passenger's travel experience.\\
+ \textbf{Beneficiaries:}
+ 
+\hspace{0.5cm}The bus travelling passengers are the main first rate beneficiaries because they can locate busses,plan according to the crowd and help themselves in emergency situations.The organisation which is greatly benefited from this is the Transport department of all the states.After the routes and timings are well organised many people will prefer travelling by busses thus increasing the profits.The analysis can help in reducing the fuel costs.In a nutshell the overall profit increases.The environment is indirectly benefited as the fuel is reduced,so is the pollution.\\
+\textbf{Social Issue:}
+
+\hspace{0.5cm}The project clearly seeks to solve the bus timings and crowd problem which is being faced by the society everyday.The location of the bus is being shared hence solving the timing problem.The crowd is also tracked simultaneously so the people can see the seat logs thus solving the crowd problem also.After gathering data it can be analysed for making the experience even better and more comfortable than the previous version.Thus the underlying social problem can be solved by this project.
 \chapter{OVERVIEW OF THE COMMUNITY}
 \begin{justify}
 \section{Introduction to village}
@@ -402,7 +403,7 @@ Data insights and analysis : By tracking the everyday crowd and analyzing the da
     \begin{flushleft}
  \textbf{Objectives of project done:}
  \begin{justify}
-\text\quad  The objectives of the project is focused on improving community transportation in Nemilicherry village through the development of a real-time bus tracking app, are multifaceted. Firstly,aim to enhance the accessibility and convenience of public transportation by providing residents with the ability to track bus locations and estimated arrival times in real-time. This empowers commuters to plan their journeys more efficiently. Secondly, the project seeks to optimize bus routes based on data collected through the app, reducing travel time and congestion while ensuring that the routes are tailored to the community's needs. Additionally, they are committed to fostering sustainability by reducing carbon emissions through route optimization and promoting the use of public transportation. Community engagement is a core objective, involving residents in the project's development and decision-making processes. The successful realization of these objectives will result in a more efficient, sustainable, and user-friendly transportation system that enhances the overall quality of life in Nemilicherry Village.
+\text\quad  The objectives of the Real-Time Bus Tracking project for the Local Bus route bounds several key goals. Firstly, our aim is to enhance the overall User experience by providing accurate, real-time information about bus locations and arrival times, thereby reducing wait times and improving public transportation efficiency. Secondly,  the project intend to improve operational transparency and efficiency for the transportation authorities by offering a comprehensive tracking system that can monitor bus routes, schedules, and deviations in real-time. Additionally,  to enhance passenger safety by implementing features such as emergency alerts and notifications. Ultimately, this project aims to contribute to the development of a modern, technologically advanced public transportation system in the Nemilichery , promoting accessibility and convenience for all travellers.To make it easier for people to use buses by giving them real-time information about where the buses are and when they'll arrive. This means less waiting and less uncertainty.It also aims to help the people who run the bus system. By using GPS technology to track buses in real-time, they can make sure buses are on time, fix any problems quickly, and make the whole system work better.Safety is a big concern. In this project we want build in features that can send out emergency alerts or important messages to passengers when needed. This will help everyone feel safer when using the buses.
  
  
     \end{flushleft} 
@@ -412,7 +413,7 @@ Data insights and analysis : By tracking the everyday crowd and analyzing the da
     \begin{flushleft}
     \textbf{Detailed Report:}
 \newline
-\item\text\quad The project's overarching objective is to enhance community transportation in Nemilicherry Village through the creation of a real-time bus tracking app. This multifaceted endeavor aims to improve accessibility and convenience by providing residents with real-time bus location and arrival time information. It also seeks to optimize bus routes, reducing travel time and congestion while aligning routes with the community's needs. Sustainability is a core focus, with efforts to reduce carbon emissions through efficient transportation. Engaging the community through surveys and feedback mechanisms ensures that residents' voices are heard in decision-making processes. A user-friendly app design prioritizes ease of use. Overall.The project aspires to create an efficient, sustainable, and community-centric transportation system that enhances the quality of life in Nemilicherry Village.
+\item\text\quad The Real-Time Bus Tracking Project aim is to enhance the overall travelling experience for passengers by providing them with up-to-the-minute information about bus locations and expected arrival times through a user-friendly mobile app and website. This technology-driven approach seeks to minimize the unpredictablity and inconvenience often associated with bus travel, thereby encouraging more individuals to rely on public transportation, reduce traffic jam, and promote environmental sustainability. It also modernize the operational aspects of the transportation system. By implementing GPS tracking system, we intend to permit transportation authorities with real-time insights into their bus stand. This includes tracking precise bus locations, monitoring adherence to schedules, and promptly addressing any route deviations or service disruptions. These capabilities can help transportation agencies optimize bus routes, allocate resources efficiently, and ultimately improve the reliability of the entire transportation system.The project is dedicated to making bus travel more convenient, efficient, and safe for all users. By achieving these objectives, our project contributes to the development of a modern and technologically advanced public transportation system, which not only caters to the needs of a growing urban population but also addresses the challenges of traffic jam and environmental sustainability, ultimately improving the quality of life for the community.
  
     \end{flushleft} 
     \end{justify}
@@ -423,7 +424,6 @@ Data insights and analysis : By tracking the everyday crowd and analyzing the da
   \caption{Week report}
   \label{tab:mytable}
 \end{table}
-
 \newpage
 \section{Project Activity Outcome}
 \hspace{0.5cm}Developing a project focused on improving community transportation by locating bus routes can yield several valuable outcomes. Here are the project activity outcomes for such an initiative:\\ \\
@@ -441,13 +441,18 @@ Data insights and analysis : By tracking the everyday crowd and analyzing the da
 %PROJECT DESCRIPTION
 \chapter{BACKGROUND & SURVEY ANALYSIS FOR PROBLEM STATEMENT}
 \hspace{0.5cm} Community transportation is a critical component of urban and rural infrastructure, providing access to education, employment, healthcare, and essential services for residents. One of the key elements of an efficient community transportation system is a well-planned and organized bus route network. Locating and optimizing bus routes can significantly enhance the accessibility and convenience of public transportation, ultimately benefiting the community as a whole. This background study aims to highlight the importance of locating bus routes for better community transportation.
-\section{Background Study}\\
-P.C.Larra,E Cantelmi' who lived in The city of Springfield, with a population of 250,000, has been facing challenges with its public transportation system. Residents have reported long wait times, overcrowded buses, and inefficient routes. The city government has decided to conduct a comprehensive study to optimize bus routes and improve the overall community transportation experience. BRT is a high quality bus-based transit system that delivers fast,comfortable, and cost-effective urban mobility through the provision of segregated right infrastructure, rapid and frequent operations, and excellence in marketing and customer service. The United States Federal Transit Administration defines BRT as a “rapidmode of transportation that combines the quality of rail transit and the flexibility of buses.”[1]\\ 
-\quad D.M.Maghanga tells that Effective bus routes can connect neighborhoods to key destinations such as schools, hospitals, employment centers, and shopping areas.Reduced Traffic Congestion,Well-planned routes can encourage commuters to choose public transportation over private vehicles, alleviating traffic congestion."Public transportation is often more cost-effective for both the community and individuals compared to owning and maintaining private vehicles".Fewer private vehicles on the road can lead to reduced greenhouse gas emissions and improved air quality.[2]\\ \\
-\quad B. Tiwari suggets real time tracking can offer benefits such as reduced traffic congestion and improved transit reliability, making it a cost-effective alternative for urban mobility.transportation, reducing congestion, and enhancing environmental sustainability.In her small town there were people who tried developing and app that significantly reduced the waiting time of the passengers but the app did not create much of an impact because there were a lot of people who were not educated."Travelling in bus is a an all new refreshing experience,dont waste it by waiting for bus".[3]
+\section{Background Study}
+
+\hspace{0.5cm}P.C Darshan Ingle [2] et al proposed that Most of the peoples are traveling by the buses but some time it is take a too much time to reach the destination because the traffic, engines problems. To solve this issue the bus monitoring system using real-time GPS location is required. This bus monitoring system is providing the real-time locations and roots of travel. The use of mobile devices has become a part of our daily routine.  "The main focus of our work is on GPS. There is need of accurate estimation of Bus location.In this project, we proposed novel approach for location estimation called B-T-S (Bus Tracking System) based on adaptive location estimation method and GPS approach. We first designed novel GPS based location estimation method".\\
+
+ \hspace{0.1cm}P.C D.M.Maghanga [1] et al presented that Effective bus routes can connect neighborhoods to key destinations such as schools, hospitals, employment centers, and shopping areas.Reduced Traffic Congestion,Well-planned routes can encourage commuters to choose public transportation over private vehicles, alleviating traffic congestion."Public transportation is often more cost-effective for both the community and individuals compared to owning and maintaining private vehicles".Fewer private vehicles on the road can lead to reduced greenhouse gas emissions and improved air quality.[2]\\ 
+ 
+\hspace{0.1cm}P.C Larrain,E C [6] et al who has been facing challenges with its public transportation system. Residents have reported long wait times, overcrowded buses, and inefficient routes. The city government has decided to conduct a comprehensive study to optimize bus routes and improve the overall community transportation experience. BRT is a high quality bus-based transit system that delivers fast,comfortable, and cost-effective urban mobility through the provision of segregated right infrastructure, rapid and frequent operations, and excellence in marketing and customer service. The United States Federal Transit Administration defines BRT as a “rapidmode of transportation that combines the quality of rail transit and the flexibility of buses.”\\ \\
 \section{Survey Analysis with report} 
- This survey aims to gather information about people's experiences and preferences regarding the use of mobile applications to locate local buses. The data collected helped us to understand the current user behavior, potential improvements, and challenges faced while using such applications.\\ \\
-A total of 15 respondents participated in the survey. The analysis of the responses provides valuable insights into the current user behavior, existing challenges, and potential improvements in using mobile apps for bus tracking\\ 
+
+\hspace{0.5cm}This survey aims to gather information about people's experiences and preferences regarding the use of mobile applications to locate local buses. The data collected helped us to understand the current user behavior, potential improvements, and challenges faced while using such applications.\\
+
+\hspace{0.1cm}A total of 15 respondents participated in the survey. The analysis of the responses provides valuable insights into the current user behavior, existing challenges, and potential improvements in using mobile apps for bus tracking\\ 
 1.How often do you use local buses for your daily commute or travel? \\ 
    a) Daily   b) 2-5 times a week   c) Once a week   d) Rarely   e) Never\\
    2. How do you currently locate local buses when you need to use them? \\ 
@@ -461,13 +466,15 @@ a)High fares b)Long waiting times c)Unreliable Schedule d)Inconvenient bus route
     \includegraphics[scale=0.7]{frequencyofbus.png}
     \caption{Frequency of Using Local Buses}
 \end{figure}\\
-The Figure 4.1 represents the frequency of people using the local bus service.65 percentage of people told that they use them daily for going in and out of town for livelihood.\\
+
+\space The Figure 4.1 represents the frequency of people using the local bus service.Around 65 percentage of people told that they use them daily for going in and out of town for livelihood.\\
 \begin{figure}
     \centering
     \includegraphics[scale=0.6]{currentmethod.png}
     \caption{Current method of locating busses}
 \end{figure}
-The Figure 4.2 tells us about how the people of nemilichery currently get the bus timings from.Majority of the users follow the official time table which was once released by the government.Some people also get their details from asking drivers and conductors the regular timing everyday.
+
+\space The Figure 4.2 tells us about how the people of nemilichery currently get the bus timings from.Majority of the users follow the official time table which was once released by the government.Some people also get their details from asking drivers and conductors the regular timing everyday.
 \newpage
 \begin{figure}
     \centering
@@ -506,69 +513,43 @@ The Figure 4.3 shows the reasons why people don't prefer using the local bus ser
 
 Identifying these societal problems underscores the importance of locating and optimizing bus routes to create a more efficient, accessible, and sustainable community transportation system. Addressing these challenges can lead to improved mobility, reduced environmental impact, and enhanced overall well-being for residents.\\
  \section{Development of Problem solution}
- \textbf{Problem Identification and Understanding:}Begin by conducting thorough research to understand the specific challenges faced by the community in terms of transportation.Identify pain points such as unreliable schedules, lack of route information, or inconvenience in accessing transportation options.\\ \newline
-\textbf{Stakeholder Engagement:}Engage with various stakeholders, including local government authorities, transportation agencies, and community members.Gather insights and perspectives from these stakeholders to ensure the solution aligns with their needs.\newline \\
-\textbf{Market Research:}Analyze existing transportation infrastructure and services in the community.Study the competition, if any, to identify gaps and opportunities.\newline
-\textbf{Define Clear Objectives:}Clearly define the objectives of your solution. What do you aim to achieve? For example, improving route information accessibility, reducing commuting times, or enhancing overall transportation convenience.\newline \\
-\textbf{Conceptualization and Solution Design:}Brainstorm potential solutions that address the identified problems.
-Develop a concept for a bus route locator system with specific features like real-time tracking, route optimization, and user-friendly interfaces.\newline \\
-\textbf{Prototyping:}Create a prototype of your solution. This can be a low-fidelity mockup or a digital prototype.
-Focus on the core features such as route mapping, real-time tracking, and user interface.\newline \\
-\textbf{Route Planning and Optimization:}Utilize GIS and route optimization algorithms to design efficient bus routes. Consider factors like travel time, coverage, accessibility, and environmental impact.\newline \\
-\textbf{Environmental Sustainability:} taken steps towards a more sustainable future by exploring cleaner and more eco-friendly transportation options. The introduction of electric buses and route optimization contributes to reducing the community's carbon footprint.\newline\\
-\textbf{Continuous Improvement:}The commitment to continuous improvement means that this project doesn't mark the end but rather a new beginning. It will diligently monitor the performance of the transportation system, gather feedback, and make ongoing adjustments to meet the evolving needs of the community.
+ \textbf{Problem Identification and Understanding:} One of the main problems for bus passengers is uncertainty about when the next bus will arrive.Passengers might arrive at the bus stop without knowing if the bus is running on time or not.Elderly people and disabled people cannot travel without seats.They can check beforehand if seats are available or how is the present crowd in the bus and other features.Buses are susceptible to tire punctures or flat tires. This problem can cause delays in bus schedules, inconvenience for passengers, and traffic disruptions if the bus has to stop in the middle of the road for repairs.
+\\ \newline
+\textbf{Define Clear Objectives:} The goal of the project was to improve the travel experience of passengers by improving the real time tracking of location and seats.\newline \\
+\textbf{Discussion with officials:} The ideas,insights and solution was thoroughly discussed with bus drivers,conducters and other members of transport department.Amongst the list of solutions the best solution was selected and decided to be worked upon.\newline \\
+\textbf{Project Research:} The existing transport routes in and around nemilichery was identified and the busses were examined.All busses had a camera already built in but the GPS was older and  hence needed to be replaced with a latest version for better signal transmissions .\newline \\
+\textbf{Solution Design:} An app was decided to be created in order to integrate all the data that is being gathered by the GPS and camera.The location to place the camera and GPS inside the busses was decided.\newline \\
+\textbf{Real Time Tracking:} The ultimate solution is to track the busses in real time using a GPS and also to track the crowd by using a camera.The camera gives image as an input to the ML model which tracks the number of people and how crowded the bus is.The seat availability is tracked by the camera.\newline \\
+\textbf{Environmental Sustainability:} By utilizing the data properly we can predict better routes and variable number of busses which can greatly cut the fuel costs and save the environment from pollution.Cutting down little pollution is also an improvement towards overall change.\newline\\
+\textbf{Continuous Improvement:} From the data that is collected from the sensors we can analyze and predict better results like new routes and new features in the future for increasing the users comfort and experience.The app also has a feedback section to get the improvements and recommendations from the users.
 \newpage
 \chapter{RECOMMENDATIONS AND
 CONCLUSION}
 \section{Recommendations }
-\textbf{1.Expand the Bus Route Network:} Based on  research and findings, it is recommended to expand the existing bus route network to cover under served areas of the community. Identify specific routes that have the potential to connect more people to essential services, employment opportunities, and educational institutions.\\
-\textbf{2.Regular Route Assessments:} Implement a system for regular assessments of bus routes and their efficiency. This should involve gathering feedback from community members to identify areas where routes can be improved or optimized for better service.\\
-\textbf{3.Integration with Other Services:} Explore opportunities for integrating the bus service with other community services, such as healthcare facilities, recreational centers, and social assistance programs. Coordinated efforts can enhance the overall impact of community transportation.\\
-\textbf{4.Affordability and Accessibility:} Ensure that bus fares remain affordable for all members of the community, particularly those with limited financial resources. Additionally, make sure that buses are accessible to people with disabilities, including ramps and appropriate seating arrangements.\\
-\textbf{5.Education and Promotion:} Launch public awareness campaigns to educate the community about the benefits of using public transportation, including its positive impact on the environment and reduction of traffic congestion. Promote the use of the bus service as a sustainable transportation option.\\
-\textbf{6.Technology Integration:} Implement modern technology solutions to enhance the convenience and reliability of the bus service. This may include real-time tracking, mobile apps for route information, and electronic payment options.\\
+\textbf{1.Expand the Bus Route Network:} Based on the analysis of the collected data we can predict better routes where people can utilize the bus service more.When new routes are added the bus route network is expanded creating more oppertunitites and chances for a better life for many people. \\ \\
+\textbf{2.Environment changes:} Over a period of time after collecting data the fuel effeciency of the busses can be checked.The fuel economy can be greatly increased by rearranging the routes of the busses and by the method of variable number of busses.The more reliable the app becomes more people will shift to public transport and less the fuel consumption by private vehicles. \\ \\
+\textbf{3.Integration with Other Services:} The tracking app can be integrated with other services such as police department for emergency cases.The data can also be useful to the forest department when busses travel inside forest areas.In case of emergency they can come to rescue quickly.Medical facilities,ambulances can also be provided rapidly as the location of the bus is always known.\\ \\
+\textbf{4.Reliablility of people on software:} .The bus users can plan according to the location of the busses.They exaclty know when the bus will arrive and the approximate free seats.This greatly increases the reliability of the people with the app as well as with the busses.The more the reliability the more will be the population using busses everyday.\\ \\
+\textbf{5.Education and Promotion:}The app can be promoted using social media and ads where all the majority of the users are students and employees.In build tutorials in the app can also help people identify the functions of the elements of the app. \\ \\
+\textbf{6.Variable bus numbers:} It is also a feature that increases the eco-friendliness of the buses.More number of busses can be provided when the crowd is more and less number when the crowd is less.This is called variable number of busses.The crowd can be analyzed by collecting the data of the crowd over a period of time.The busses can be adjusting by the prediction of the crowd by an ML model.\\ \\
 \section{Conclusion}
 \hspace{11}
-In  conclusion,the community service project has been a testament to the potential for positive change through collective action and community-driven initiatives. By focusing on the enhancement of bus routes and community transportation,this project can  contribute to addressing a real-world problem that impacts the lives of many.
+Real time tracking of the busses brings about many changes in the era of local bus users.The users can locate the busses from anywhere,know the approximate timings the busses arrive in stops,track the crowd and seat availability.\\
 
-The efforts have revealed that even small-scale projects, fueled by passion and dedication, can catalyze enduring transformation within a community.firsthand the power of offering support, education, and resources to underserved members of the society, ultimately improving their access to essential services, employment opportunities, and education was experienced.The key outcomes of this project include. By strategically designing and optimizing bus routes, It has made public transportation more accessible to a broader segment of the community.
+The GPS has to be fitted near the driver's seat and the camera is fitted behind the driver's seat.The GPS sends the location info all day even in night time.It has to be powered by the battery of the bus and has some emergency power to function in the case of emergency breakdown.The camera also functions by using the battery of the bus.The camera sends its data to the ML model which predicts the number of passengers on board and thus the crowd tracking.From the pictures we can also observe the empty seats which are displayed in the app.\\
 
-This ensures that residents, including those in underserved areas, have better access to essential services, education, and job opportunitie. Utilizing advanced technologies like GPS tracking and real-time data analysis, it has increased the efficiency of the transportation system. Passengers can now enjoy more reliable schedules and real-time updates, reducing waiting times and making their journeys smoother. We've taken steps towards a more sustainable future by exploring cleaner and more eco-friendly transportation options. 
-
-The introduction of electric buses and route optimization contributes to reducing the community's carbon footprint. Throughout this project, community engagement has been a cornerstone. By involving community members and stakeholders in the decision-making process, we've ensured that the new bus routes align with the needs and aspirations of the people we serve.Safety and inclusivity have been at the forefront of the efforts. We've implemented safety measures at bus stops, prioritized accessibility for people with disabilities, and worked to create a transportation system that fosters a sense of security and belonging.
-
-\hspace{0.5cm} 
-
+The effect the project has is not only limited to the general users of the bus but also to the transportation department.As the busses become more reliable many people will shift to public busses because they are way cheaper and competitively fast than bikes or cars.The data obtained from the sensors is stored and used for further analysis on the behaviour of the crowd,fuel consumption of the bus,better routes that may be useful to the bus users.Variable number of buses will be provided.This will ensure minimal consumption of fuel over a period of time.Thus the project improves the livelihood of the society by improving the overall travel experience of the passengers using real time tracking of location and seat availability of the busses.\\ 
 \appendix
 \chapter{REFERENCES}
-\bibitem{latexcompanion} \text{[1] P. C. Larraín, E. Cantelmi, and R. M. Pardal. "Bus Rapid Transit (BRT) Route Design and Fleet Sizing" A Case Study of Bogota, Colombia. Transportmetrica B: Transport Dynamics, 9(1), 178-197, 2021.}\\\\ 
-\textbfS[2] D. M. Maghanga, Z. Y. Gichaga, and S. J. Li. "Optimization Model for a Bus Rapid Transit Network"A Case Study of Nairobi, Kenya.Transportmetrica A: Transport Science, 16(3), 705-724, 2020.}\\
-\\ \textbfS [3] Patel and B. Tiwari. "Integration of Bus Rapid Transit and Cycling Infrastructure: Case Study of Ahmedabad, India." Transport Policy, 100.22-31. 2021. \\
-\\ \textbfS [4] Eric Hellman "Programming Location Services for Android".12(3).304-350.2021\\ \
-\\ \textbfS [5] Syed A. Ahson and Mohammad Ilyas."Location-Based Services Handbook: Applications, Technologies, and Security".9(2),212-222,2020
-\\ \textbfs [6]Darshan Ingle; A.B. Bagwan."Real-Time Analysis and Simulation of Efficient Bus Monitoring System".128-140.2021
-\newpage
-\begin{center} \textbf{General Instructions} \end{center} 
-\begin{itemize}
-\item \textbf {Wherever Figures applicable in Report , that page should be printed in color}
-\item Dont include general content , write more technical content
-\item Each chapter should minimum contain 3 pages
-\item Draw the notation of diagrams properly 
-\item Every paragraph should be started with one tab space 
-\item Literature review should be properly cited and described with content related to project
-\item All the diagrams should be properly described and dont include general information of any 
-diagram
-\item All diagrams,figures should be numbered according to the chapter number
-\item All the references should be cited in the report 
-\item \textbf{Strictly dont change font style or font size of the template, and dont customize the 
-latex code of report}
-\item \textbf{Report should be prepared according to the template only}
-\item \textbf{Any deviations from the report template,will be summarily rejected}
-\item \textbf{ Number of Project Soft Binded copy for each and every batch is (n+2) copies as given
-in the table below}
-\item \textbf {Attach the CD in last Cover page of the Project Report with CD cover and details of 
-batch like Title,Members name and VTU No ,Batch No,should be written in Marker pen}
-\end{itemize}
+\bibitem{latexcompanion} 
+\textbfS[1] D. M. Maghanga, Z. Y. Gichaga, and S. J. Li. "Optimization Model for a Bus Rapid Transit Network"A Case Study of Nairobi, Kenya.Transportmetrica A: Transport Science, 16(3), 705-724, 2020.}\\
+\\ \textbfs [2]Darshan Ingle; A.B. Bagwan."Real-Time Analysis and Simulation of Efficient Bus Monitoring System".128-140.2021\\ \\
+ \textbfS [3] Eric Hellman "Programming Location Services for Android".12(3).304-350.2021\\ \
+\\ \textbf  [4]M. A Hafiizh Nur; Sugondo Hadiyoso; Fefa Bianca Belladina; Dadan Nur Ramadan; Inung Wijayanto. "Tracking, Arrival Time Estimator, and Passenger Information System on Bus Rapid Transit (BRT)".7(1),245-298,2020 \\ 
+\\ \textbfS [5] Mohammad Nazmul Hasan; Md. Sharif Hossen."Development of An Android Based Real Time Bus Tracking System".173-285,2021\\ \\
+\text{[6] P. C. Larraín, E. Cantelmi, and R. M. Pardal. "Bus Rapid Transit (BRT) Route Design and Fleet Sizing" A Case Study of Bogota, Colombia. Transportmetrica B: Transport Dynamics, 9(1), 178-197, 2021.}\\ 
+\\ \textbfS [7] Patel and B. Tiwari. "Integration of Bus Rapid Transit and Cycling Infrastructure: Case Study of Ahmedabad, India." Transport Policy, 100.22-31. 2021. \\
+\\ \textbfS [8] Syed A. Ahson and Mohammad Ilyas."Location-Based Services Handbook: Applications, Technologies, and Security".9(2),212-222,2020\\
 \newpage
 \end{document}
 \end{document}
