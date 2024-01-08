@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @JonesAndrew12
-- 👀 I’m interested in devoloping apps and combining then with the application of machine learning
+- 👀 I’m interested in moderninzing the society and reducing human effort through artificial intelligence and machine learning
 - 🌱 I’m currently doing my pre final year in btech articial intelligence and machine learning
-- 💞️ I’m looking to collaborate on devoloping user friendly apps, that really help making people's life easier
+- 💞️ I’m looking to collaborate on devoloping user friendly models, that really help making people's life easier
 - 📫 You can reach me on insta @_mr.lovely_poison_
 
 <!---
